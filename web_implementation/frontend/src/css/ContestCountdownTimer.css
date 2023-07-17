@@ -1,0 +1,51 @@
+.countdown-timer {
+    /* display:flexbox; */
+    text-align: center;
+    /* margin-top: 30px; */
+    /* border: 2px solid black; */
+    /* padding: 10px; */
+    /* border-radius: 5px; */
+    
+
+}
+
+.countdown-timer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+}
+
+.timer div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0px;
+    /* border: 2px solid black; */
+
+}
+
+.timer span {
+    font-size: 10px;
+    border: 2px solid black;
+    padding: 8px;
+
+}
+
+.timer span:first-child {
+    font-size: 30px;
+    font-weight: bold;
+    /* padding: 10px; */
+    /* border: 2px solid black; */
+    
+}
+
+.timer span:last-child {
+    font-size: 12px;
+    text-transform: uppercase;
+    /* padding: 10; */
+}

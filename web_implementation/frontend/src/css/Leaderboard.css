@@ -1,0 +1,40 @@
+.leaderboard-container {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+.leaderboard-table {
+    width: 400px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.leaderboard-table th, .leaderboard-table td {
+    padding: 10px;
+}
+
+.leaderboard-table th {
+    background-color: #f0f0f0;
+}
+
+.leaderboard-table th:first-child {
+    border-top-left-radius: 5px;
+}
+
+.leaderboard-table th:last-child {
+    border-top-right-radius: 5px;
+}
+
+.leaderboard-table td {
+    border-bottom: 1px solid #ddd;
+}
+
+.leaderboard-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.leaderboard-table tr:hover {
+    background-color: #f0f0f0;
+}

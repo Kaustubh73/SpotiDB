@@ -1,0 +1,40 @@
+h1 {
+    text-align: center;
+  }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+padding: 20px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+font-size: large;
+}
+
+button[type='submit'] {
+background-color: #28a745;
+/* font-size: 10p; */
+}
+
+.sign-up {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

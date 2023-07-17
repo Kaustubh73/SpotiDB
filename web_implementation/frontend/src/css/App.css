@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.welcome-message {
+  margin-top: 60px;
+  padding: 25px;
+  background-color: #282c34;
+  text-align: center;
+}
+.welcome-message h1 {
+  color: white;
+}
+.welcome-message p {
+  color: whitesmoke;
+}
+
+.featured {
+  background-color: greenyellow;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.featured h2 {
+  font-size: 24;
+  margin-bottom: 10px;
+}
+
+.featured p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.featured button {
+  padding: 10px 20px;
+  background-color: blue;
+  color:white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.puzzle-showcase {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  padding: 10px;
+}
+.puzzle-image {
+  margin-right: 20px;
+}
+.puzzle-image img {
+  max-width: 350px;
+  height: auto;
+}
+
+.puzzle-description {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.puzzle-description h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.puzzle-description p {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* .featured {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured-gap {
+  margin-right: 20px;
+}
+
+.countdown {
+  flex-grow: 1;
+} */
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+  .welcome-message {
+    margin-top: 50px;
+    padding: 70px;
+  }
+
+  .featured {
+    padding: 70px;
+  }
+
+  .featured h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+
+  .featured p {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+
+  .featured button {
+    padding: 8px 16px;
+    font-size: 16px;
+  }
+
+  .puzzle-showcase {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .puzzle-image {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .puzzle-image img {
+    max-width: 300px;
+    height: auto;
+  }
+
+  .puzzle-description {
+    margin-right: 0;
+  }
+
+  .puzzle-description h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+
+  .puzzle-description p {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+}
